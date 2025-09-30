@@ -1,0 +1,26 @@
+# The human-readable name of your package. (Required)
+name: "My Awesome Package"
+
+# A brief, one-sentence description of what your package does. (Required)
+description: "A template package demonstrating code and asset provisioning."
+
+author:
+  name: "Me Author"
+  email: "you@invalid.com"
+
+# ---------------------------------------------------------------------------
+# The 'provides' section tells Rayforge what your package contains.
+# You can have 'code', 'assets', or both. Delete any section you don't need,
+# but at least one section is required.
+# ---------------------------------------------------------------------------
+provides:
+  # If your package includes Python code, define its entry point here.
+  # The format is 'path.to.module:function'.
+  code: "my_package.plugin:app"
+
+  # If your package includes assets, list their type and location here.
+  assets:
+    - type: "material"
+      # The 'path' is relative to the root of this repository.
+      path: "./assets/materials/"
+      description: "Materials included with this package."
