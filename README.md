@@ -39,8 +39,7 @@ The automated release workflow needs a token with minimal permissions to announc
     - Click **"Generate new token"** (classic).
     - Give it a descriptive name (e.g., `Rayforge Registry Announcer`).
     - Set an expiration date (e.g., 1 year).
-    - Under **"Select scopes,"** check only the box for **`public_repo`**. This grants read-only
-      permission for public repositories.
+    - Under **"Select scopes,"** check only the box for **`repo`**.
     - Click **"Generate token"** and **copy the token immediately**. You will not see it again.
 
 2.  **Add the Token to Your Repository Secrets:**

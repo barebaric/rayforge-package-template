@@ -17,7 +17,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           # The central registry repository that will receive the announcement.
-          repository: rayforge/rayforge-registry
+          repository: barebaric/rayforge-registry
           
           # This uses the secret you created in your repository settings.
           token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
