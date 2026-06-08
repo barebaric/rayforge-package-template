@@ -9,7 +9,7 @@ display_name: "My Addon"
 description: "A template addon demonstrating code and asset provisioning."
 
 # The plugin API version. Must match the version expected by Rayforge.
-api_version: 6
+api_version: 15
 
 # The Python addon versions required by this addon.
 depends:
